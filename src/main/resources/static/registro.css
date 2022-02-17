@@ -1,0 +1,109 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#registrar{
+	
+	position:relative;
+	width:520PX;
+	height:480px;
+	margin:0px auto;
+	margin-top:90px;
+padding:40px;
+background-color:#5e5e5e;
+
+} 
+#registrar p{
+	color:#fff;
+	margin-bottom:10px;
+	letter-spacing:2px;
+	font-size:19px;
+}
+#registrar p:nth-child(1){
+float:right;
+margin-right:160px;
+}
+#registrar input[type="nombre"], #registrar input[type="apellido"]{
+	position:relative;
+	display:inline-block;
+height:30px;
+width:44%;
+background:transparent;
+color:#ffff;
+border-radius:10px;
+padding-left:4px;
+border:2px outset;
+}
+
+#registrar input[type="nombre"]:focus, #registrar input[type="apellido"]:focus{
+    border:2px inset #c6c6c6;
+    box-shadow: 0 0 10px #c6c6c6;
+}
+#registrar input[type="nombre"]{
+	margin-right:40px;
+}
+#registrar input[type="date"]{
+	color:#FFFFFF;
+	background-color:#5e5e5e;
+	margin-bottom: 10px;
+}
+#registrar input[type="date"]:focus{
+border-color:black;
+	 }
+#registrar input[type="contraseña"], #registrar input[type="email"],#registrar input[type="contraseña2"]{
+height:30px;
+width:94.6%;
+background:transparent;
+color:#c6c6c6;
+border-radius:10px;
+padding-left:26px;
+border:2px outset;
+margin-bottom:10px;
+}
+
+#registrar input[type="contraseña"]:focus, #registrar input[type="email"]:focus,#registrar input[type="contraseña2"]:focus{
+    border:2px inset #c6c6c6;
+    box-shadow: 0 0 10px #c6c6c6;
+}
+
+#registrar label{
+	text-align: center;
+	color: white;
+}
+
+#botonregistrar{
+
+	text-align:center;
+	margin:20px;
+}
+#botonregistrar a{
+	position:relative;
+	display:inline-block;
+	text-decoration:none;
+	padding: 15px 30px;
+	font-size:24px;
+	color:#ffffff;
+	text-transform:uppercase;
+	letter-spacing: 3px;
+overflow:hidden;
+transition:0.5s;
+}
+#botonregistrar a:hover{
+color:#0f1b27;
+background:#c6c6c6;
+box-shadow: 0px 0px 10px #c6c6c6,
+ 0px 0px 40px #c6c6c6 ,0px 0px 80px #c6c6c6;
+}
+#login{
+text-align: center;	
+}
+#login a{
+	color:white;
+	text-decoration:none;
+	letter-spacing:1px;
+transition: all 200ms;
+}
+#login a:hover{
+	color: blue;
+	transform:scale(1.2,1.2);
+}
